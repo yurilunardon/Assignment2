@@ -24,9 +24,12 @@ package it.unipd.mtss;
 
    private static Stream<Arguments> numberToRoman() {
      return Stream.of(
-         arguments(1, "I"),
-         arguments(2, "II"),
-         arguments(3, "III")
+          arguments(1, "I"),
+          arguments(2, "II"),
+          arguments(3, "III"),
+          arguments(4, "IV"),
+          arguments(5, "V"),
+          arguments(6, "VI")
          );
    } 
  }
