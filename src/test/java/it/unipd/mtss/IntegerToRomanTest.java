@@ -48,7 +48,12 @@ package it.unipd.mtss;
           arguments(74, "LXXIV"),
           arguments(89, "LXXXIX"),
           arguments(90, "XC"),
-          arguments(100, "C")
+          arguments(100, "C"),
+          arguments(135, "CXXXV"),
+          arguments(222, "CCXXII"),
+          arguments(340, "CCCXL"),
+          arguments(444, "CDXLIV"),
+          arguments(500, "D")
          );
    } 
  }

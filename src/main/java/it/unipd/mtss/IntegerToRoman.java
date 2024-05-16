@@ -13,6 +13,8 @@ public class IntegerToRoman {
         StringBuilder romanNumber = new StringBuilder();
 
         if (number > 0) {
+            number = converter(number, 500, "D", romanNumber);
+            number = converter(number, 400, "CD", romanNumber);
             number = converter(number, 100, "C", romanNumber);
             number = converter(number, 90, "XC", romanNumber);
             number = converter(number, 50, "L", romanNumber);
