@@ -33,7 +33,11 @@ package it.unipd.mtss;
           arguments(7, "VII"),
           arguments(8, "VIII"),
           arguments(9, "IX"),
-          arguments(10, "X")
+          arguments(10, "X"),
+          arguments(11, "XI"),
+          arguments(16, "XVI"),
+          arguments(19, "XIX"),
+          arguments(20, "XX")
          );
    } 
  }
