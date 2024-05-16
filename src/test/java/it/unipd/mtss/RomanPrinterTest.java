@@ -25,19 +25,19 @@ public class RomanPrinterTest {
 
     @BeforeEach
     public void setUpStreams() {
-	System.setOut(new PrintStream(outContent));
+		System.setOut(new PrintStream(outContent));
     }
 
     @AfterEach
     public void restoreStreams() {
-	System.setOut(originalOut);
+		System.setOut(originalOut);
     }
 
     @ParameterizedTest
     @MethodSource("stringToAsciiArt")
     void checkAsciiArt(int romanNum, String asciiNumber) {
-	RomanPrinter.print(romanNum);
-	assertEquals(asciiNumber, outContent.toString());
+		RomanPrinter.print(romanNum);
+		assertEquals(asciiNumber, outContent.toString());
     }
 
     private static Stream<Arguments> stringToAsciiArt() {
